@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Portfolio = () => {
     return (
@@ -11,47 +12,59 @@ const Portfolio = () => {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg: flex-wrap'>
               <div className="basis-1/3 flex-1">
-                <p className="text-center text-gray-800 dark:text-white mt-2">Airbnb clone</p>
+                <Link href="https://rental-app-ebon.vercel.app/">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">Airbnb clone</p>
                   <Image src="/images/web1.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='an image of a portfolio project'
-                  style={{margin: "auto", }}/>
-                </div>
-                <div className="basis-1/3 flex-1">
+                    width={500} height={500}
+                    alt='an image of a portfolio project'
+                    style={{margin: "auto", }}
+                  />
+                </Link>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Link href="https://music-player-blush-ten.vercel.app/">
                   <p className="text-center text-gray-800 dark:text-white mt-2">Spotify clone</p>
                   <Image src="/images/web2.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='a dog'
-                  style={{margin: "auto", }}/>
-                </div>
-                <div className="basis-1/3 flex-1">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce dashboard *synced to E-commerce store</p>
-                  <Image src="/images/web3.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='an image of a portfolio project'
-                  style={{margin: "auto", }}/>
-                </div>
-                <div className="basis-1/3 flex-1">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce store *synced to E-commerce dashboard</p>
-                  <Image src="/images/web4.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='an image of a portfolio project'
-                  style={{margin: "auto", }}/>
-                </div>
-                <div className="basis-1/3 flex-1">
+                    width={500} height={500}
+                    alt='a dog'
+                    style={{margin: "auto", }}
+                  />
+                </Link>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce dashboard *synced to E-commerce store</p>
+                <Image src="/images/web3.png" className='rounded-lg object-cover'
+                width={500} height={500}
+                alt='an image of a portfolio project'
+                style={{margin: "auto", }}/>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce store *synced to E-commerce dashboard</p>
+                <Image src="/images/web4.png" className='rounded-lg object-cover'
+                width={500} height={500}
+                alt='an image of a portfolio project'
+                style={{margin: "auto", }}/>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Link href="https://saas-ai-blush.vercel.app/">
                   <p className="text-center text-gray-800 dark:text-white mt-2">Software as a service - AI site</p>
                   <Image src="/images/web5.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='an image of a portfolio project'
-                  style={{margin: "auto", }}/>
-                </div>
-                <div className="basis-1/3 flex-1">
+                    width={500} height={500}
+                    alt='an image of a portfolio project'
+                    style={{margin: "auto", }}
+                  />
+                </Link>
+              </div>
+              <div className="basis-1/3 flex-1">
+                <Link href="https://landscaping-temp.vercel.app/">
                   <p className="text-center text-gray-800 dark:text-white mt-2">A custom landscaping site</p>
-                  <Image src="/images/web6.png" className='rounded-lg object-cover'
-                  width={500} height={500}
-                  alt='an image of a portfolio project'
-                  style={{margin: "auto", }}/>
-                </div>
+                      <Image src="/images/web6.png" className='rounded-lg object-cover'
+                        width={500} height={500}
+                        alt='an image of a portfolio project'
+                        style={{margin: "auto", }}
+                      />
+                  </Link>
+              </div>
             </div>
         </section>
     );
