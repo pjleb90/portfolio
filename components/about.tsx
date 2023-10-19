@@ -3,7 +3,7 @@ import Image from "next/image";
 const About = () => {
     return (
         <section>
-            <div>
+            <div className="text-center p-10">
               <h3 className=' text-3xl py-1'>More about me</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                 During my courses for <span className="text-teal-500">data analytics</span>, I discovered that I was most

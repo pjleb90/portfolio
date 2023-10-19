@@ -4,8 +4,8 @@ import Link from "next/link";
 const Portfolio = () => {
     return (
         <section>
-            <div>
-              <h3 className=' text-3xl py-1'>Portfolio</h3>
+            <div className="text-center p-10">
+              <h3 className=' text-4xl py-1'>Portfolio</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                   Below are some of the projects that I have worked on in my free time.
               </p>
