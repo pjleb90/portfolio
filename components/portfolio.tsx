@@ -32,18 +32,24 @@ const Portfolio = () => {
                 </Link>
               </div>
               <div className="basis-1/3 flex-1">
-                <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce dashboard *synced to E-commerce store</p>
-                <Image src="/images/web3.png" className='rounded-lg object-cover'
-                width={500} height={500}
-                alt='an image of a portfolio project'
-                style={{margin: "auto", }}/>
+                <Link href="https://e-comm-dashboard-five.vercel.app/">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce dashboard *synced to E-commerce store</p>
+                  <Image src="/images/web3.png" className='rounded-lg object-cover'
+                    width={500} height={500}
+                    alt='an image of a portfolio project'
+                    style={{margin: "auto", }}
+                  />
+                </Link>
               </div>
               <div className="basis-1/3 flex-1">
-                <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce store *synced to E-commerce dashboard</p>
-                <Image src="/images/web4.png" className='rounded-lg object-cover'
-                width={500} height={500}
-                alt='an image of a portfolio project'
-                style={{margin: "auto", }}/>
+                <Link href="https://e-comm-store-git-main-pjleb90.vercel.app/">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce store *synced to E-commerce dashboard</p>
+                  <Image src="/images/web4.png" className='rounded-lg object-cover'
+                    width={500} height={500}
+                    alt='an image of a portfolio project'
+                    style={{margin: "auto", }}
+                  />
+                </Link>
               </div>
               <div className="basis-1/3 flex-1">
                 <Link href="https://saas-ai-blush.vercel.app/">
