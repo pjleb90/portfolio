@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Portfolio = () => {
     return (
@@ -12,64 +11,64 @@ const Portfolio = () => {
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg: flex-wrap'>
               <div className="basis-1/3 flex-1">
-                <Link href="https://rental-app-ebon.vercel.app/">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">Airbnb clone</p>
+                <a href="https://rental-app-ebon.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">An Airbnb clone</p>
                   <Image src="/images/web1.png" className='rounded-lg object-cover'
                     width={500} height={500}
                     alt='an image of a portfolio project'
                     style={{margin: "auto", }}
                   />
-                </Link>
+                </a>
               </div>
               <div className="basis-1/3 flex-1">
-                <Link href="https://music-player-blush-ten.vercel.app/">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">Spotify clone</p>
+                <a href="https://music-player-blush-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">A Spotify clone</p>
                   <Image src="/images/web2.png" className='rounded-lg object-cover'
                     width={500} height={500}
                     alt='a dog'
                     style={{margin: "auto", }}
                   />
-                </Link>
+                </a>
               </div>
               <div className="basis-1/3 flex-1">
-                <Link href="https://e-comm-dashboard-five.vercel.app/">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce dashboard *synced to E-commerce store</p>
+                <a href="https://e-comm-dashboard-five.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">A E-commerce dashboard *synced to E-commerce store</p>
                   <Image src="/images/web3.png" className='rounded-lg object-cover'
                     width={500} height={500}
                     alt='an image of a portfolio project'
                     style={{margin: "auto", }}
                   />
-                </Link>
+                </a>
               </div>
               <div className="basis-1/3 flex-1">
-                <Link href="https://e-comm-store-git-main-pjleb90.vercel.app/">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">E-commerce store *synced to E-commerce dashboard</p>
+                <a href="https://e-comm-store-git-main-pjleb90.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">A E-commerce store *synced to E-commerce dashboard</p>
                   <Image src="/images/web4.png" className='rounded-lg object-cover'
                     width={500} height={500}
                     alt='an image of a portfolio project'
                     style={{margin: "auto", }}
                   />
-                </Link>
+                </a>
               </div>
               <div className="basis-1/3 flex-1">
-                <Link href="https://saas-ai-blush.vercel.app/">
-                  <p className="text-center text-gray-800 dark:text-white mt-2">Software as a service - AI site</p>
+                <a href="https://saas-ai-blush.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <p className="text-center text-gray-800 dark:text-white mt-2">A software as a service - AI site</p>
                   <Image src="/images/web5.png" className='rounded-lg object-cover'
                     width={500} height={500}
                     alt='an image of a portfolio project'
                     style={{margin: "auto", }}
                   />
-                </Link>
+                </a>
               </div>
               <div className="basis-1/3 flex-1">
-                <Link href="https://landscaping-temp.vercel.app/">
+                <a href="https://landscaping-temp.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <p className="text-center text-gray-800 dark:text-white mt-2">A custom landscaping site</p>
                       <Image src="/images/web6.png" className='rounded-lg object-cover'
                         width={500} height={500}
                         alt='an image of a portfolio project'
                         style={{margin: "auto", }}
                       />
-                  </Link>
+                  </a>
               </div>
             </div>
         </section>

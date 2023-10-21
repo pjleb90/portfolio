@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { AiFillLinkedin, AiFillGithub, AiFillTwitterCircle } from "react-icons/ai"
 
@@ -14,15 +13,15 @@ const Header = () => {
             </p>
           </div>
           <div className='text text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500'>
-            <Link href="https://www.linkedin.com/in/pjleblanc90/">
+            <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
-            </Link>
-            <Link href="https://github.com/pjleb90/">
+            </a>
+            <a href="https://github.com/pjleb90/" target="_blank" rel="noopener noreferrer">
               <AiFillGithub />
-            </Link>
-            <Link href="https://twitter.com/pjleb90/">
+            </a>
+            <a href="https://twitter.com/pjleb90/" target="_blank" rel="noopener noreferrer">
               <AiFillTwitterCircle />
-            </Link>
+            </a>
           </div>
           {/* profile pic */}
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-75 h-75 mt-10 mb-10 overflow-hidden md:h-96 md:w-96'>
