@@ -4,7 +4,7 @@ const About = () => {
     return (
         <section>
             <div className="text-center p-10">
-              <h3 className=' text-3xl py-1'>More about me</h3>
+              <h3 className=' text-4xl py-1'>About me</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
                 During my courses for <span className="text-teal-500">data analytics</span>, I discovered that I was most
                 engaged when learning <span className="text-teal-500">R</span> and <span className="text-teal-500">sql</span>.
@@ -27,9 +27,10 @@ const About = () => {
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <h3 className=' text-lg font-medium pt-8 pb-2'>Intuitive designs</h3>
                 <Image src="/images/design.png"
-                width={100} height={100}
-                alt='a hashtag icon'
-                style={{margin: "auto", }}/>
+                  width={100} height={100}
+                  alt='a hashtag icon'
+                  style={{margin: "auto", }}
+                />
                 <p className='py-2'>
                   Creating responsive and accessible designs <br></br>suited for your project needs.
                 </p>
@@ -41,9 +42,10 @@ const About = () => {
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <h3 className=' text-lg font-medium pt-8 pb-2'>Coding</h3>
                 <Image src="/images/code.png"
-                width={100} height={100}
-                alt='a design icon'
-                style={{margin: "auto", }}/>
+                  width={100} height={100}
+                  alt='a design icon'
+                  style={{margin: "auto", }}
+                />
                 <p className='py-2'>
                   Do you have an idea for your next great website?
                   <br></br>Let&#39;s make it a reality!
@@ -56,9 +58,10 @@ const About = () => {
               <div className='text-center shadow-lg p-10 rounded-xl my-10'>
                 <h3 className=' text-lg font-medium pt-8 pb-2'>Consulting</h3>
                 <Image src="/images/consulting.png"
-                width={100} height={100}
-                alt='a consulting icon'
-                style={{margin: "auto", }}/>
+                  width={100} height={100}
+                  alt='a consulting icon'
+                  style={{margin: "auto", }}
+                />
                 <p className='py-2'>
                   Have a current website that you&#39;re not happy with?
                   <br></br>I&#39;ll do my best to bring it to a level that meets your needs.
