@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from "react";
+import Link from "next/link";
 import Container from "./container";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -49,7 +50,7 @@ const NavMenu = () => {
                     <div className="hidden lg:flex space-x-4">
                         <button onClick={() => scrollToSection("about")}>About</button>
                         <button onClick={() => scrollToSection("portfolio")}>Portfolio</button>
-                        <button onClick={() => scrollToSection("contact")}>Contact</button>
+                        <Link href="/contact"><button>Contact</button></Link>
                     </div>
                 </div>
             </Container>
