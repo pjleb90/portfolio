@@ -106,12 +106,6 @@ const Contact = () => {
                         </Button>
                     </form>
                 </div>
-
-
-
-
-
-                
                 <div className=' lg:flex gap-10 justify-center items-center border-t border-teal-500'>
                     <div className='text-center shadow-lg pt-2 pb-2 pl-10 pr-10 rounded-xl my-10'>
                         <h3 className=' text-lg font-medium pt-2 pb-2'>Intuitive designs</h3>
