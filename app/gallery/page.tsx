@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-const Portfolio = () => {
-    return (
+const gallery = () => {
+ return (
         <section>
             <div className="text-center p-10">
               <h3 className=' text-4xl py-1'>Portfolio</h3>
@@ -74,5 +74,4 @@ const Portfolio = () => {
         </section>
     );
 }
-
-export default Portfolio;
+export default gallery;
