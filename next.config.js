@@ -3,7 +3,6 @@ const nextConfig = {
     images: {
         domains: [
             "img.freepik.com",
-            "www.goodcore.co.uk";
         ]
     }
 }
