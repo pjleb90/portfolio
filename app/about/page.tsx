@@ -13,13 +13,13 @@ const about = () => {
             priority={true}
         />
       </div>
-      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         During my classes for data analytics, I discovered that I was most engaged when learning <span className="text-teal-500">R</span> and <span className="text-teal-500">SQL</span>.
         As much as I enjoyed working with data to gain business insights and create visualizations with <span className="text-teal-500">Tableau</span>, writing code to plot data in <span className="text-teal-500">RStudio </span>
         or querying large databases with structured query language made me feel like I was hacker
         in a movie.
       </p>
-      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         I knew then that I wanted a career revolving around coding and signed up for a entry level <span className="text-teal-500">Python </span>
         program offered by the University of Michigan. I was immediately hooked.
         I jumped into the never-ending rabbit hole of learning software engineering
@@ -29,7 +29,7 @@ const about = () => {
         blown away by how powerful and versatile it is. I love how you never stop learning in this industry and am really
         excited to be a part of it.
       </p>
-      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>
+      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         When I&#39;m not working I can be found hanging out with my husky Ginkgo, coding a side-project, reading,
         playing guitar, a good video game, or any sport that is an option.
       </p>

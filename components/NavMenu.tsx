@@ -10,7 +10,7 @@ const NavMenu = () => {
         <div className="border-b border-teal-500">
             <Container>
                 <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
-                    <div className="lg:flex space-x-4">
+                    <nav className="lg:flex space-x-4 font-medium md:text-xl xl:text-xl">
                         <Link href="/">
                             Home
                         </Link>
@@ -23,7 +23,7 @@ const NavMenu = () => {
                         <Link href="/contact">
                             Contact
                         </Link>
-                    </div>
+                    </nav>
                     <div style={{ marginLeft: '1rem', marginRight: '1rem' }} className="right-0">
                         <ThemeToggle />
                     </div>

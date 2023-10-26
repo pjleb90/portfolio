@@ -7,7 +7,7 @@ const gallery = () => {
     <section>
         <div className="text-center p-10">
           <h3 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>Projects</h3>
-          <p className='text-2xl py-2 leading-8 text-gray-800 dark:text-teal-500 '>
+          <p className='py-2 leading-8 text-gray-800 dark:text-teal-500 md:text-xl xl:text-xl'>
               Below are some of the projects that I have worked on recently. All projects were developed with React, Next.js & Tailwind, with databases ranging from MongoDB, Supabase and PlanetScale.
           </p>
         </div>
