@@ -9,7 +9,7 @@ const Featured = () => {
                     <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Let&#39;s make your dream website a reality</h1>
                     <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">
                         From responsive designs to search engine optimization, if you need a new website to help you stand out or
-                        if you&#39;re not happy with your existing website, I&#39;d love to work with you.
+                        if you&#39;re not happy with your existing one, I&#39;d love to work with you.
                     </p>
                     <a href="/contact" className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
                                 dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2

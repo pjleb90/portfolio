@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from "@/providers/theme-provider"
 import ToastProvider from '@/providers/toast-provider'
 import NavMenu from '@/components/NavMenu'
+import ScrollToTopButton from '@/components/ScrollToTopButton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <ToastProvider />
         <NavMenu />
           {children}
+          <ScrollToTopButton />
         </ThemeProvider>
         </main>
       </body>
