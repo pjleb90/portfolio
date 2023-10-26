@@ -9,8 +9,8 @@ const ContactFooter = () => {
                 style={{margin: "auto", }}
                 /> */}
                 <p className='py-2'>
-                Creating responsive and accessible designs <br></br>suited for your project needs.
                 </p>
+                Focusing on SEO and responsiveness<br></br>to make your website stand out.
             </div>
             <div className='text-center shadow-lg pt-2 pb-2 pl-10 pr-10 rounded-xl my-10'>
                 <h3 className=' text-lg font-medium pt-2 pb-2'>Coding</h3>
@@ -33,7 +33,7 @@ const ContactFooter = () => {
                 /> */}
                 <p className='py-2'>
                 Have a current website that you&#39;re not happy with?
-                <br></br>Allow me to bring it to a level that meets your needs.
+                <br></br>Allow me to bring it to a level that meets your standards.
                 </p>
             </div>
         </div>
