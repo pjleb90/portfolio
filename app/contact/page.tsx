@@ -1,6 +1,3 @@
-
-
-import ContactFooter from "@/components/contact-footer";
 import { ContactForm } from "@/components/contact-form";
 
 const contact = () => {
@@ -8,7 +5,6 @@ const contact = () => {
     return (
         <div>
             <ContactForm />
-            <ContactFooter />
         </div>
      );
 }
