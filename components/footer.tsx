@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className=' lg:flex gap-10 justify-center items-center border-t border-gray-200 dark:border-teal-500'>
+        <div className='hidden lg:flex gap-10 justify-center items-center border-t border-gray-200 dark:border-teal-500'>
             <div className='text-center shadow-lg shadow-slate-500 dark:shadow-teal-500 pt-2 pb-2 pl-10 pr-10 rounded-xl my-10'>
                 <h3 className=' text-lg font-medium pt-2 pb-2'>Intuitive designs</h3>
                 <p className='py-2 text-gray-600 dark:text-teal-500'>

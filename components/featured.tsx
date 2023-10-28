@@ -11,19 +11,20 @@ const Featured = () => {
                         From responsive designs to search engine optimization, if you need a new website to help you stand out or
                         if you&#39;re not happy with your existing one, I&#39;d love to work with you.
                     </p>
-                    <a href="/contact" className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
-                                dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                                text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700">
-                        Contact me
-                    </a>
-                    <a href="/projects" className="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-gray-800 dark:text-teal-500 rounded-lg bg-primary-700">
-                        See more
-                        <ArrowRight className="w-5 h-5 ml-2 -mr-1"/>
-                    </a>
+                    <div className="flex flex-col md:flex-row">
+                        <a href="/contact" className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                                    dark:text-grey-800 focus:ring-4 focus:outline-none rounded-xl px-4 py-2
+                                    text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700">
+                            Contact me
+                        </a>
+                        <a href="/projects" className="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-gray-800 dark:text-teal-500 rounded-lg bg-primary-700">
+                            See more
+                            <ArrowRight className="w-5 h-5 ml-2 -mr-1"/>
+                        </a>
+                    </div>
                 </div>
                 <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                     <Image
-
                         src="/images/hero.jpeg"
                         width={500} height={500}
                         alt='a picture of a laptop with code'

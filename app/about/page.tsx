@@ -31,7 +31,7 @@ const about = () => {
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         When I&#39;m not working I can be found hanging out with my husky Ginkgo, coding a side-project, reading,
-        playing guitar, a good video game, or any sport that is an option.
+        playing guitar, a good video game, baseball or soccer.
       </p>
     </div>
   );
