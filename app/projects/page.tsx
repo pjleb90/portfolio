@@ -12,7 +12,7 @@ const gallery = () => {
           </p>
         </div>
         <div className='flex flex-col gap-10 py-10 lg:flex-row lg: flex-wrap' style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800 ">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
             </a>
@@ -36,7 +36,7 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://music-player-blush-ten.vercel.app/" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web2.png" alt="A picture of a Spotify clone" width={1000} height={500}/>
             </a>
@@ -60,7 +60,7 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://e-comm-dashboard-five.vercel.app" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web3.png" alt="A image of an e-commerce dashboard" width={1000} height={500}/>
             </a>
@@ -84,7 +84,7 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://e-comm-store-chi.vercel.app/" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web4.png" alt="A image of an e-commerce store front" width={1000} height={500}/>
             </a>
@@ -108,7 +108,7 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://saas-ai-blush.vercel.app/" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web5.png" alt="A SaaS, AI site" width={1000} height={500}/>
             </a>
@@ -132,7 +132,7 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl bg-white rounded-lg shadow dark:bg-gray-800">
+          <div className="max-w-xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://landscaping-temp.vercel.app/" target="blank" rel="noopener noreferrer">
                 <Image className="rounded-t-lg" src="/images/web6.png" alt="A commercial landscaping website" width={1000} height={500}/>
             </a>
