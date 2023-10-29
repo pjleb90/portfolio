@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 
-const Featured = () => {
+const Hero = () => {
     return (
         <section className="bg-white dark:bg-gray-800">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
@@ -36,4 +36,4 @@ const Featured = () => {
     );
 }
 
-export default Featured;
+export default Hero;

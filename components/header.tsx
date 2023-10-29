@@ -10,7 +10,7 @@ const Header = () => {
               A freelancer providing services for web design and development. Looking forward to hearing from you!
             </p>
           </div>
-          <div className='text text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500'>
+          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500'>
             <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer">
               <AiFillLinkedin />
             </a>

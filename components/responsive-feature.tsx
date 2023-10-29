@@ -18,7 +18,8 @@ const Responsive = () => {
                             <h2 className="max-w-xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-5xl">
                                 Website not working how you expect?
                             </h2>
-                            <p className="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">Mobile first design is a must in this day in age. Let me get your website up to speed and keep your customers happy and engaged.
+                            <p className="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">
+                                If your website isn&#39;t responsive on mobile, I can fix that. Let me get your website up to speed and keep your customers coming back.
                             </p>
                         </div>
                         <div className='space-x-4'>
@@ -26,7 +27,7 @@ const Responsive = () => {
                     </div>
                 </div>
             </div>
-                <div className='text text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500 border-t border-teal-500'>
+                <div className='hidden text-5xl md:flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500 border-t border-teal-500'>
                 <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer">
                 <AiFillLinkedin />
                 </a>
