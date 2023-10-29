@@ -7,8 +7,8 @@ const Featured = () => {
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-xl mb-4 text-4xl font-bold tracking-tight leading-none text-center md:text-5xl xl:text-5xl">Let&#39;s make your dream website a reality</h1>
-                    <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">
-                        From responsive designs to search engine optimization, if you need a new website to help you stand out or
+                    <p className="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">
+                        An online presence is a must in this day and age. If you need a new website to help you stand out or
                         if you&#39;re not happy with your existing one, I&#39;d love to work with you.
                     </p>
                     <div className="flex flex-col md:flex-row">

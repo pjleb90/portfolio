@@ -1,6 +1,12 @@
+'use client';
+
 import Image from "next/image";
 
-const about = () => {
+const About = () => {
+  const handleLinkClick = () => {
+    window.open('https://www.retrogames.cz/play_1030-NES.php', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="text-center p-10">
       <h3 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>About me</h3>
@@ -31,7 +37,7 @@ const about = () => {
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         When I&#39;m not working I can be found hanging out with my husky Ginkgo, coding a side-project, reading,
-        playing guitar, a good video game, baseball or soccer.
+        playing guitar, a good <span id="hidden-link" onClick={handleLinkClick}> video game</span>, baseball or soccer.
       </p>
     </div>
   );
@@ -39,4 +45,4 @@ const about = () => {
 
 
 
-export default about;
+export default About;
