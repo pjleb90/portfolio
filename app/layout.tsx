@@ -9,8 +9,20 @@ import ScrollToTopButton from '@/components/ScrollToTopButton'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'pjleblanc.dev',
-  description: 'my portfolio',
+  openGraph: {
+    title: 'pjleblanc.dev',
+    description: 'my portfolio',
+    url: 'https://www.pjleblanc.dev/',
+    publishedTime: '2023-10-23T00:00:00.000Z',
+    authors: ['PJ'],
+        images: [
+      {
+        url: 'https://www.pjleblanc.dev/_next/image?url=%2Fimages%2Fhero.jpeg&w=640&q=75',
+        width: 800,
+        height: 600,
+      },
+    ]
+  }
 }
 
 export default function RootLayout({

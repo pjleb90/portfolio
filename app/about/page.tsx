@@ -36,7 +36,7 @@ const About = () => {
         excited to be a part of it.
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
-        When I&#39;m not working I can be found hanging out with my husky Ginkgo, coding a side-project, reading,
+        When I&#39;m not working I can be found hanging out with my husky Ginkgo, working on my websites, reading,
         playing guitar, a good <span id="hidden-link" onClick={handleLinkClick}> video game</span>, baseball or soccer.
       </p>
     </div>
