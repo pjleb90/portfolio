@@ -9,19 +9,15 @@ import ScrollToTopButton from '@/components/ScrollToTopButton'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  openGraph: {
-    title: 'pjleblanc.dev',
-    description: 'my portfolio',
-    url: 'https://www.pjleblanc.dev/',
-    publishedTime: '2023-10-23T00:00:00.000Z',
-    authors: ['PJ'],
-        images: [
-      {
-        url: 'https://www.pjleblanc.dev/_next/image?url=%2Fimages%2Fhero.jpeg&w=640&q=75',
-        width: 800,
-        height: 600,
-      },
-    ]
+  openGraph:  {
+    type: "website",
+    url: "https://www.pjleblanc.dev/",
+    title: "pjleblanc.dev",
+    description: "My portfolio website built with React, Next.js and TailwindCSS",
+    siteName: "pjleblanc.dev",
+    images: [{
+      url: "https://www.pjleblanc.dev/_next/image?url=%2Fimages%2Fhero.jpeg&w=640&q=75",
+    }],
   }
 }
 
