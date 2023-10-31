@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   openGraph:  {
     type: "website",
     url: "https://www.pjleblanc.dev/",
-    title: "PJ LeBlanc - web dev",
-    description: "A web developer based in Ontario, Canada",
+    title: "PJ LeBlanc - web developer based in Ontario, Canada",
+    description: "A freelancer providing services for web design and development. Looking forward to hearing from you!",
     siteName: "pjleblanc.dev",
     images: [{
       url: "https://www.pjleblanc.dev/_next/image?url=%2Fimages%2Fhero.jpeg&w=640&q=75",

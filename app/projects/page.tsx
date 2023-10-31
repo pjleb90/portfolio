@@ -14,7 +14,7 @@ const gallery = () => {
         <div className='flex flex-col gap-16 py-10 lg:flex-row lg: flex-wrap' style={{ display: 'flex', justifyContent: 'space-between' }}>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <a href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
+                <Image priority={true} className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
             </a>
             <div className="p-5">
                 <a href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer">

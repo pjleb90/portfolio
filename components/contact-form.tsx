@@ -3,13 +3,7 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import { toast } from "react-hot-toast";
-import {
-    AiFillLinkedin,
-    AiFillGithub,
-    AiFillTwitterCircle
-} from "react-icons/ai"
 import { Button } from './ui/button';
-
 
 export const ContactForm = () => {
     emailjs.init(process.env.NEXT_PUBLIC_EMAIL_KEY as string);
@@ -59,7 +53,6 @@ export const ContactForm = () => {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         if (data.name && data.email && data.message) {
-        // If the form is valid, you can send data to the API
         const response = await fetch('/api/send', {
             method: 'POST',
             headers: {
@@ -69,11 +62,9 @@ export const ContactForm = () => {
         });
 
         if (response.status === 200) {
-            // Handle success
             sendEmail();
                 toast.success(`Hey ${data.name}, your email was sent successfully!`);
         } else {
-            // Handle API error
             toast.error('An error occurred while submitting the form.');
         }
         } else {
@@ -95,6 +86,7 @@ export const ContactForm = () => {
                         <input
                             type="email"
                             name="email"
+                            autoComplete="email"
                             value={data.email}
                             onChange={handleInputChange}
                             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
@@ -107,6 +99,7 @@ export const ContactForm = () => {
                         <input
                             type="text"
                             name="name"
+                            autoComplete="given-name"
                             value={data.name}
                             onChange={handleInputChange}
                             className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" 
