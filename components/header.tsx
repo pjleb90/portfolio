@@ -19,21 +19,21 @@ const Header = () => {
           <div className='text-center p-10'>
             <h2 className='text-4xl py-2 text-center font-extrabold tracking-tight leading-none md:text-6xl xl:text-6xl mx-auto'>PJ LeBlanc</h2>
             <h3 className='text-2xl py-2 font-medium md:text-3xl'>Developer and Designer</h3>
-            <p className='text-md py-5 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white bg-clip-text'>
+            <div className='text-md py-5 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white bg-clip-text'>
               {isClient &&
-              <TypewriterComponent
-                options={{
-                  strings: [
-                    "A freelancer providing services for web design and development. Looking forward to hearing from you!"
-                  ],
-                  autoStart: true,
-                  loop: true,
-                  delay: 75,
-                  deleteSpeed: 500000
-                }}
-              />
+                <TypewriterComponent
+                  options={{
+                    strings: [
+                      "A freelancer providing services for web design and development. Looking forward to hearing from you!"
+                    ],
+                    autoStart: true,
+                    loop: true,
+                    delay: 75,
+                    deleteSpeed: 500000
+                  }}
+                />
               }
-            </p>
+            </div>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-teal-500'>
             <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer">

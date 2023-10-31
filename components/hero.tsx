@@ -25,10 +25,11 @@ const Hero = () => {
                 </div>
                 <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
                     <Image
+                        priority={true}
                         src="/images/hero.jpeg"
                         width={500} height={500}
-                        alt='a picture of a laptop with code'
-                        style={{ borderRadius: '100px' }}
+                        alt='a picture of a laptop displaying code'
+                        style={{ width: "auto", height: "auto", borderRadius: '100px' }}
                     />
                 </div>
             </div>

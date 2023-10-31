@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   openGraph:  {
     type: "website",
     url: "https://www.pjleblanc.dev/",
-    title: "pjleblanc.dev",
-    description: "My portfolio website built with React, Next.js and TailwindCSS",
+    title: "PJ LeBlanc - web dev",
+    description: "A web developer based in Ontario, Canada",
     siteName: "pjleblanc.dev",
     images: [{
       url: "https://www.pjleblanc.dev/_next/image?url=%2Fimages%2Fhero.jpeg&w=640&q=75",
