@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <section className="bg-white dark:bg-gray-800">
+        <section className="bg-white dark:bg-gray-900">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-xl mb-4 text-4xl font-bold tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">Let&#39;s make your dream website a reality</h1>
