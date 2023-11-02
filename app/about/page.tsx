@@ -1,10 +1,21 @@
 'use client';
-
+import React, { useState } from "react";
 import Image from "next/image";
+import Confetti from 'react-confetti'
+import { AiFillCloseCircle } from "react-icons/ai";
 
-const About = () => {
-  const handleLinkClick = () => {
-    window.open('https://www.retrogames.cz/play_1030-NES.php', '_blank', 'noopener,noreferrer');
+  const About = () => {
+    const [showConfetti, setShowConfetti] = useState(false);
+    const [showImageModal, setShowImageModal] = useState(false);
+
+    const handleLinkClick = () => {
+        setShowImageModal(true);
+        setShowConfetti(true);
+    };
+
+  const closeImageModal = () => {
+    setShowImageModal(false);
+    setShowConfetti(false);
   };
 
   return (
@@ -36,9 +47,32 @@ const About = () => {
         excited to be a part of it.
       </p>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
-        When I&#39;m not working I can be found hanging out with my husky Ginkgo, working on my websites, reading,
-        playing guitar, a good <span id="hidden-link" onClick={handleLinkClick}> video game</span>, baseball or soccer.
+        When I&#39;m not working I can be found hanging out with my husky
+        <span id="hidden-link" onClick={handleLinkClick}> Ginkgo</span>, working on a side project, reading,
+        playing guitar, a good video game, baseball or soccer.
       </p>
+      {showConfetti && (
+        <Confetti
+          width={window.innerWidth}
+          height={window.innerHeight}
+          style={{ position: "fixed", top: 0, left: 0, zIndex: 2 }}
+        />
+      )}
+      {showImageModal && (
+        <div className="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-gray-900 bg-opacity-80 z-1">
+          <div className="bg-gray-900 dark:bg-teal-500 p-4 rounded-lg relative z-2">
+            <button className="absolute top-2 right-2 text-black" onClick={closeImageModal}>
+              <AiFillCloseCircle className="width: w-8 height: h-8 text-teal-500 dark:text-gray-900"/>
+            </button>
+            <Image
+              src="/images/Gink.jpeg"
+              alt="a picture of Ginkgo"
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 }
