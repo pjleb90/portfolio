@@ -76,8 +76,8 @@ export const ContactForm = () => {
     return (
         <div>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md space-y-4">
-                <h2 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>Contact Me</h2>
-                <p className="mb-8 lg:mb-16 font-light text-center sm:text-xl text-teal-600 ">
+                <h2 className='text-center text-4xl py-2 text-gray-600 dark:text-teal-500 font-medium md:text-6xl'>Contact Me</h2>
+                <p className="mb-8 lg:mb-16 text-center sm:text-xl text-teal-600 dark:text-teal-500">
                     Have a question or just want to say hi? Don&apos;t hesitate to reach out.
                 </p>
                 <form onSubmit={handleSubmit} className="space-y-4">

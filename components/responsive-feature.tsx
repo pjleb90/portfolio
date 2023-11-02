@@ -13,7 +13,7 @@ const Responsive = () => {
                     <Lottie animationData={animationData} />
                     <div className="lg:mb-0 lg:max-w-lg lg:pr-5">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-xl mb-4 text-4xl font-bold tracking-tight leading-none md:text-5xl xl:text-5xl">
+                            <h2 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none md:text-5xl xl:text-5xl">
                                 Get your business recognized
                             </h2>
                             <p className="max-w-2xl mb-6 lg:mb-8 md:text-lg lg:text-xl text-gray-800 dark:text-white">

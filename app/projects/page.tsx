@@ -6,8 +6,8 @@ const gallery = () => {
   return (
     <div>
         <div className="text-center p-10">
-          <h3 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>Projects</h3>
-          <p className='py-2 leading-8 text-gray-800 dark:text-teal-500 md:text-xl xl:text-xl'>
+          <h3 className='text-center text-4xl py-2 text-gray-600 dark:text-teal-500 font-medium md:text-6xl'>Projects</h3>
+          <p className='py-2 leading-8 text-teal-600 dark:text-teal-500 md:text-xl xl:text-xl'>
               Below are some of the projects that I have worked on recently. All projects were developed with React, Next.js & Tailwind, with databases ranging from MongoDB, Supabase and PlanetScale.
           </p>
         </div>
@@ -18,9 +18,9 @@ const gallery = () => {
             </a>
             <div className="p-5">
                 <a href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer">
-                    <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">A Airbnb clone</h5>
+                    <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Airbnb clone</h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A full stack Airbnb clone built with Next.js 13, React, Tailwind, Prisma, MongoDB, and NextAuth</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A full stack Airbnb clone built with Next.js 13, React, Tailwind, Prisma, MongoDB, and NextAuth</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
@@ -42,9 +42,9 @@ const gallery = () => {
             </a>
             <div className="p-5">
                 <a href="https://music-player-blush-ten.vercel.app/" target="blank" rel="noopener noreferrer">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">A Spotify clone</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">Spotify clone</h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A full stack Spotify clone using Next 13.4, React, Stripe, Supabase, PostgreSQL, and Tailwind</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A full stack Spotify clone using Next 13.4, React, Stripe, Supabase, PostgreSQL, and Tailwind</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://music-player-blush-ten.vercel.app/" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
@@ -68,7 +68,7 @@ const gallery = () => {
                 <a href="https://e-comm-dashboard-five.vercel.app" target="blank" rel="noopener noreferrer">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">A backend e-commerce dashboard</h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A dashboard site for my e-commerce site, built with Next.js, Tailwind, shadcn/ui, Clerk & PlanetScale</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A dashboard site for my e-commerce site, built with Next.js, Tailwind, shadcn/ui, Clerk & PlanetScale</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://e-comm-dashboard-five.vercel.app" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
@@ -92,7 +92,7 @@ const gallery = () => {
                 <a href="https://e-comm-store-chi.vercel.app/" target="blank" rel="noopener noreferrer">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">A frontend e-commerce store</h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A frontend e-commerce store, connected to my e-comm-admin dashboard, built with Next.js, Tailwind & Stripe</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A frontend e-commerce store, connected to my e-comm-admin dashboard, built with Next.js, Tailwind & Stripe</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://e-comm-store-chi.vercel.app/" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
@@ -116,7 +116,7 @@ const gallery = () => {
                 <a href="https://saas-ai-blush.vercel.app/" target="blank" rel="noopener noreferrer">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">A software-as-a-service, AI generation site </h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A SaaS AI Platform built with Next.js 13, React, Tailwind, shadcn/ui, Prisma, and Stripe</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A SaaS AI Platform built with Next.js 13, React, Tailwind, shadcn/ui, Prisma, and Stripe</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://saas-ai-blush.vercel.app/" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
@@ -140,7 +140,7 @@ const gallery = () => {
                 <a href="https://landscaping-temp.vercel.app/" target="blank" rel="noopener noreferrer">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-800 dark:text-teal-500">A commercial landscaping site</h5>
                 </a>
-                <p className="mb-3 font-medium text-gray-800 dark:text-teal-500">A commercial landscaping site built with Next.js, shadcn/ui & Tailwind </p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A commercial landscaping site built with Next.js, shadcn/ui & Tailwind </p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://landscaping-temp.vercel.app/" target="blank" rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
