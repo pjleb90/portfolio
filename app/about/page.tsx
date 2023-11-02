@@ -13,14 +13,14 @@ import { AiFillCloseCircle } from "react-icons/ai";
         setShowConfetti(true);
     };
 
-  const closeImageModal = () => {
-    setShowImageModal(false);
-    setShowConfetti(false);
-  };
+    const closeImageModal = () => {
+      setShowImageModal(false);
+      setShowConfetti(false);
+    };
 
   return (
     <div className="text-center p-10">
-      <h3 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>About me</h3>
+      <h3 className='text-center text-4xl py-2 text-teal-600 font-medium md:text-6xl'>About Me</h3>
       <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-75 h-75 mt-10 mb-10 overflow-hidden md:h-96 md:w-96'>
         <Image
             src="/images/round.png"
@@ -41,8 +41,10 @@ import { AiFillCloseCircle } from "react-icons/ai";
         program offered by the University of Michigan. I was immediately hooked.
         I jumped into the never-ending rabbit hole of learning software engineering
         and did a follow up course focused on building web applications with <span className="text-teal-500">Python </span> and <span className="text-teal-500">Django</span>.
+      </p>
+      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         After seeing the industry start to lean heavily towards component based web development with <span className="text-teal-500">React</span>,
-        I signed up for a front-end developer course focused on <span className="text-teal-500">Javascript </span> and <span className="text-teal-500">JSX</span> and have really been
+        I signed up for a front-end developer course focused on <span className="text-teal-500">Javascript </span> and <span className="text-teal-500">JSX</span> and I&#39;ve really been
         blown away by how powerful and versatile it is. I love how you never stop learning in this industry and am really
         excited to be a part of it.
       </p>
@@ -60,7 +62,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
       )}
       {showImageModal && (
         <div className="fixed top-0 left-0 w-screen h-screen flex justify-center items-center bg-gray-900 bg-opacity-80 z-1">
-          <div className="bg-gray-900 dark:bg-teal-500 p-4 rounded-lg relative z-2">
+          <div className="bg-gray-900 dark:bg-teal-500 p-4 rounded-xl relative z-2">
             <button className="absolute top-2 right-2 text-black" onClick={closeImageModal}>
               <AiFillCloseCircle className="width: w-8 height: h-8 text-teal-500 dark:text-gray-900"/>
             </button>
