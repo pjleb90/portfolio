@@ -32,7 +32,7 @@ const ScrollToTopButton = () => {
         }`}
         onClick={scrollToTop}
         >
-            <ChevronUp className="width: w-8 height: h-8"/>
+            <ChevronUp className="width: w-8 height: h-8 text-gray-600 dark:text-teal-500"/>
         </button>
     )
 }
