@@ -63,12 +63,50 @@ export const ContactForm = () => {
 
         if (response.status === 200) {
             sendEmail();
-                toast.success(`Hey ${data.name}, your email was sent successfully!`);
+                toast.success(`Hey ${data.name}, your email was sent successfully!`,
+                    {
+                        // icon: '👏',
+                        style: {
+                            border: '1px solid #01603f',
+                            padding: '16px',
+                            color: '#01603f',
+                        },
+                        iconTheme: {
+                            primary: '#01603f',
+                            secondary: '#FFFAEE',
+                        },
+                        duration: 4000,
+                    }
+                );
         } else {
-            toast.error('An error occurred while submitting the form.');
+            toast.error('An error occurred while submitting the form.',
+                {
+                    style: {
+                        border: '1px solid #713200',
+                        padding: '16px',
+                        color: '#713200',
+                    },
+                    iconTheme: {
+                        primary: '#713200',
+                        secondary: '#FFFAEE',
+                    },
+                }
+            );
         }
         } else {
-            toast.error('Please fill in all fields.');
+            toast.error('Please fill in all fields.',
+                {
+                  style: {
+                    border: '1px solid #713200',
+                    padding: '16px',
+                    color: '#713200',
+                    },
+                iconTheme: {
+                    primary: '#713200',
+                    secondary: '#FFFAEE',
+                    },
+                }
+            );
         }
     };
 
