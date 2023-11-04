@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
+import * as DOMPurify from 'dompurify';
 import { toast } from "react-hot-toast";
 import { Button } from './ui/button';
 
@@ -53,6 +54,7 @@ export const ContactForm = () => {
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         if (data.name && data.email && data.message) {
+        const sanitizedMessage = DOMPurify.sanitize(data.message);
         const response = await fetch('/api/send', {
             method: 'POST',
             headers: {
