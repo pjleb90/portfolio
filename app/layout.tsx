@@ -9,6 +9,7 @@ import ScrollToTopButton from '@/components/ScrollToTopButton'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.pjleblanc.dev/"),
   openGraph:  {
     type: "website",
     url: "https://www.pjleblanc.dev/",
