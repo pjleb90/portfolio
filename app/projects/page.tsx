@@ -21,9 +21,9 @@ const gallery = () => {
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A full stack Airbnb clone built with Next.js 13, React, Tailwind, Prisma, MongoDB, and NextAuth</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0 dark:hover:bg-blue-700"
                       style={{ display: 'inline' }}
                   >
                     Check it out
@@ -40,12 +40,12 @@ const gallery = () => {
             </a>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Spotify clone</h5>
-                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500 pb-5">A full stack Spotify clone using Next 13.4, React, Stripe, Supabase, PostgreSQL, and Tailwind</p>
+                <p className="mb-3 font-medium text-gray-600 dark:text-teal-500 pb-4">A full stack Spotify clone using Next 13.4, React, Stripe, Supabase, PostgreSQL, and Tailwind</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://music-player-blush-ten.vercel.app/" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0"
                       style={{ display: 'inline' }}
                   >
                     Check it out
@@ -65,9 +65,9 @@ const gallery = () => {
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A frontend e-commerce store, connected to my e-comm-admin dashboard, built with Next.js, Tailwind & Stripe</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://e-comm-store-chi.vercel.app/" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0"
                       style={{ display: 'inline' }}
                   >
                     Check it out
@@ -87,9 +87,9 @@ const gallery = () => {
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A backend dashboard site for Emporium, built with Next.js, Tailwind, shadcn/ui, Clerk & PlanetScale</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://e-comm-dashboard-five.vercel.app" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0"
                       style={{ display: 'inline' }}
                   >
                     Check it out
@@ -109,9 +109,9 @@ const gallery = () => {
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A SaaS AI Platform built with Next.js 13, React, Tailwind, shadcn/ui, Prisma, and Stripe</p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://saas-ai-blush.vercel.app/" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0"
                       style={{ display: 'inline' }}
                   >
                     Check it out
@@ -131,9 +131,9 @@ const gallery = () => {
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500 pb-6">A commercial landscaping site built with Next.js, shadcn/ui & Tailwind </p>
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                   <Link href="https://landscaping-temp.vercel.app/" target="blank" rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800
+                    className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 hover:border-2 hover:border-gray-600 dark:hover:border-white
                       dark:text-grey-800 focus:ring-4 focus:outline-none rounded-lg px-4 py-2
-                      text-center font-bold mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700"
+                      text-center font-bold mr-3 md:mr-0"
                       style={{ display: 'inline' }}
                   >
                     Check it out
