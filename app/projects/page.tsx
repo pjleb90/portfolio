@@ -13,9 +13,7 @@ const gallery = () => {
         </div>
         <div className='flex flex-col gap-16 py-10 lg:flex-row lg: flex-wrap' style={{ display: 'flex', justifyContent: 'space-between' }}>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://rental-app-ebon.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image priority={true} className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
-            </a>
+            <Image priority={true} className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Airbnb clone</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A full stack Airbnb clone built with Next.js 13, React, Tailwind, Prisma, MongoDB, and NextAuth</p>
@@ -35,9 +33,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://music-player-blush-ten.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web2.png" alt="A picture of a Spotify clone" width={1000} height={500}/>
-            </a>
+            <Image className="rounded-t-lg" src="/images/web2.png" alt="A picture of a Spotify clone" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Spotify clone</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500 pb-4">A full stack Spotify clone using Next 13.4, React, Stripe, Supabase, PostgreSQL, and Tailwind</p>
@@ -57,9 +53,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://e-comm-store-chi.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web4.png" alt="A image of an e-commerce store front" width={1000} height={500}/>
-            </a>
+            <Image className="rounded-t-lg" src="/images/web4.png" alt="A image of an e-commerce store front" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Emporium</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A frontend e-commerce store, connected to my e-comm-admin dashboard, built with Next.js, Tailwind & Stripe</p>
@@ -79,9 +73,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://e-comm-dashboard-five.vercel.app" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web3.png" alt="A image of an e-commerce dashboard" width={1000} height={500}/>
-            </a>
+            <Image className="rounded-t-lg" src="/images/web3.png" alt="A image of an e-commerce dashboard" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Emporium dashboard</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A backend dashboard site for Emporium, built with Next.js, Tailwind, shadcn/ui, Clerk & PlanetScale</p>
@@ -101,9 +93,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://saas-ai-blush.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web5.png" alt="A SaaS, AI site" width={1000} height={500}/>
-            </a>
+            <Image className="rounded-t-lg" src="/images/web5.png" alt="A SaaS, AI site" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Oracle</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500">A SaaS AI Platform built with Next.js 13, React, Tailwind, shadcn/ui, Prisma, and Stripe</p>
@@ -123,9 +113,7 @@ const gallery = () => {
             </div>
           </div>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
-            <a href="https://landscaping-temp.vercel.app/" target="blank" rel="noopener noreferrer">
-                <Image className="rounded-t-lg" src="/images/web6.png" alt="A commercial landscaping website" width={1000} height={500}/>
-            </a>
+            <Image className="rounded-t-lg" src="/images/web6.png" alt="A commercial landscaping website" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Greater Landscaping</h5>
                 <p className="mb-3 font-medium text-gray-600 dark:text-teal-500 pb-6">A commercial landscaping site built with Next.js, shadcn/ui & Tailwind </p>
