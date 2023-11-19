@@ -36,13 +36,13 @@ const Header = () => {
             </div>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 pb-8 text-gray-600 dark:text-teal-500'>
-            <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/pjleblanc90/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">
               <AiFillLinkedin />
             </a>
-            <a href="https://github.com/pjleb90/" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/pjleb90/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">
               <AiFillGithub />
             </a>
-            <a href="https://twitter.com/pjleb90/" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/pjleb90/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">
               <AiFillTwitterCircle />
             </a>
           </div>
