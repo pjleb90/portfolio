@@ -7,7 +7,7 @@ const Hero = () => {
             <div className="grid max-w-screen-xl px-4 py-6 mx-auto lg:gap-8 xl:gap-0 lg:py-6 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">Let&#39;s make your dream website a reality</h1>
-                    <div className="md:block lg:hidden p-4">
+                    <div className="md:block lg:hidden p-4 pb-6">
                         <Image
                             priority={true}
                             src="/images/hero.jpeg"

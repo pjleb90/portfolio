@@ -14,7 +14,7 @@ const Content = () => {
                     </div>
                     <div className="md:pt-8">
                         <h1 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">What makes me the right choice</h1>
-                        <div className="md:block lg:hidden p-4">
+                        <div className="md:block lg:hidden p-8">
                             <Image
                                 src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                                 loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500}
