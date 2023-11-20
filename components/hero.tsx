@@ -8,14 +8,14 @@ const Hero = () => {
                 <div className="mr-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">Let&#39;s make your dream website a reality</h1>
                     <div className="md:block lg:hidden p-4">
-                    <Image
-                        priority={true}
-                        src="/images/hero.jpeg"
-                        width={500} height={500}
-                        alt='a picture of a laptop displaying code'
-                        style={{ width: "auto", height: "auto", borderRadius: '25px' }}
-                    />
-                </div>
+                        <Image
+                            priority={true}
+                            src="/images/hero.jpeg"
+                            width={500} height={500}
+                            alt='a picture of a laptop displaying code'
+                            style={{ width: "auto", height: "auto", borderRadius: '25px' }}
+                        />
+                    </div>
                     <p className="max-w-2xl text-center mb-6 lg:mb-8 md:text-lg md:text-left lg:text-xl text-gray-800 dark:text-white">
                         If you need a new website to help you stand out or if you&#39;re not happy with your existing one, I&#39;d love to work with you.
                         I focus on responsive and accessible design to ensure a smooth user experience on pc and mobile.

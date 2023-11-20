@@ -8,12 +8,19 @@ const Content = () => {
                 <div className="mx-auto max-w-screen-xl px-4 md:px-8">
                     <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
                     <div>
-                        <div className="h-64 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
-                        <Image src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750" loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500} />
+                        <div className="h-64 hidden lg:mt-0 lg:col-span-5 lg:flex overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
+                            <Image src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750" loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500} />
                         </div>
                     </div>
                     <div className="md:pt-8">
                         <h1 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">What makes me the right choice</h1>
+                        <div className="md:block lg:hidden p-4">
+                            <Image
+                                src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
+                                loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500}
+                                style={{ width: "auto", height: "auto", borderRadius: '25px' }}
+                            />
+                        </div>
                         <p className="max-w-2xl text-center mb-6 lg:mb-8 md:text-lg md:text-left lg:text-xl text-gray-800 dark:text-white">
                             60% of all internet traffic is on mobile devices, so I optimize your mobile to perform it&#39;s best in search engines.
                             <br></br>
