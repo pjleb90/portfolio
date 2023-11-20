@@ -1,3 +1,4 @@
+import Content from "@/components/content";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Responsive from "@/components/responsive-feature";
@@ -8,6 +9,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Responsive />
+        <Content />
     </main>
   )
 }
