@@ -4,9 +4,9 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Content = () => {
     return (
         <div>
-            <div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-12">
+            <div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-8 text-center md:text-left">
                 <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-                    <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
+                    <div className="grid gap-8 md:grid-cols-2 lg:gap-12 items-center">
                         <div>
                             <div className="h-64 hidden lg:mt-0 lg:col-span-5 lg:flex overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-auto">
                                 <Image src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750" loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500} />
@@ -14,7 +14,7 @@ const Content = () => {
                         </div>
                         <div className="md:pt-8">
                             <h1 className="max-w-xl mb-4 text-4xl font-bold text-teal-600 dark:text-teal-500 tracking-tight leading-none text-center md:text-left md:text-5xl xl:text-5xl">What makes me the right choice</h1>
-                            <div className="md:block lg:hidden p-8">
+                            <div className="md:block lg:hidden py-8">
                                 <Image
                                     src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=600&h=750"
                                     loading="lazy" alt="Photo by Martin Sanchez" className="h-full w-full object-cover object-center" width={500} height={500}

@@ -13,6 +13,7 @@ const Hero = () => {
                             src="/images/hero.jpeg"
                             width={500} height={500}
                             alt='a picture of a laptop displaying code'
+                            className='w-full'
                             style={{ width: "auto", height: "auto", borderRadius: '25px' }}
                         />
                     </div>
