@@ -11,7 +11,7 @@ const gallery = () => {
               Below are some of the projects that I have worked on recently. All projects were developed with React, Next.js & Tailwind, with databases ranging from MongoDB, Supabase and PlanetScale.
           </p>
         </div>
-        <div className='flex flex-col gap-16 py-10 lg:flex-row lg: flex-wrap' style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <div className='flex flex-col gap-16 py-10 md:px-2 lg:flex-row lg: flex-wrap' style={{ display: 'flex', justifyContent: 'space-between' }}>
           <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <Image priority={true} className="rounded-t-lg" src="/images/web1.png" alt="A image of a Airbnb clone" width={1000} height={500}/>
             <div className="p-5">

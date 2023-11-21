@@ -19,7 +19,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
     };
 
   return (
-    <div className="text-center p-10">
+    <div className="text-center p-10 md:px-20">
       <h3 className='text-center text-4xl py-2 text-gray-600 dark:dark:text-teal-500 font-medium md:text-6xl'>About Me</h3>
       <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-75 h-75 mt-10 mb-10 overflow-hidden md:h-96 md:w-96'>
         <Image
