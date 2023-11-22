@@ -7,7 +7,7 @@ const gallery = () => {
   return (
     <div>
         <div className="text-center p-10">
-          <h3 className='text-center text-4xl py-2 text-gray-600 dark:text-teal-500 font-medium md:text-6xl'>Projects</h3>
+          <h1 className="mb-4 text-center text-3xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-900 dark:text-teal-500">Projects</h1>
           <p className='py-2 leading-8 text-teal-600 dark:text-teal-500 md:text-xl xl:text-xl'>
               Below are some of the projects that I have worked on recently. All projects were developed with React, Next.js & Tailwind, with databases ranging from MongoDB, Supabase and PlanetScale.
           </p>

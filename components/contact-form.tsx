@@ -116,7 +116,7 @@ export const ContactForm = () => {
     return (
         <div>
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md space-y-4">
-                <h2 className='text-center text-4xl py-2 text-gray-600 dark:text-teal-500 font-medium md:text-6xl'>Contact Me</h2>
+                <h1 className="mb-4 text-center text-3xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-900 dark:text-teal-500">Contact Me</h1>
                 <p className="mb-8 lg:mb-16 text-center sm:text-xl text-gray-800 dark:text-white">
                     Have a question or just want to say hi? Don&apos;t hesitate to reach out.
                 </p>
