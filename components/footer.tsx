@@ -1,37 +1,16 @@
 import Link from "next/link";
-import Container from "./container";
+import { FaHome } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
 
     return (
-        <Container>
+        // <Container>
             <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
                 <div className="mx-auto max-w-screen-xl">
                     <div className="sm:flex sm:justify-between">
-                        <div className="mb-6 md:mb-0">
+                        <div className="mb-6 md:mb-0 pt-10">
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-600 dark:text-teal-500 hidden sm:inline-block">pjleb90@gmail.com</span>
-                        </div>
-                        <div className="flex flex-wrap justify-center">
-                            <div className="m-2">
-                                <Link href="/">
-                                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">Home</h2>
-                                </Link>
-                            </div>
-                            <div className="m-2">
-                                <Link href="/about">
-                                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">About</h2>
-                                </Link>
-                            </div>
-                            <div className="m-2">
-                                <Link href="/projects">
-                                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">Projects</h2>
-                                </Link>
-                            </div>
-                            <div className="m-2">
-                                <Link href="/contact">
-                                    <h2 className="mb-6 text-sm font-semibold uppercase text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white">Contact</h2>
-                                </Link>
-                            </div>
                         </div>
                     </div>
                     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-2" />
@@ -64,7 +43,7 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-        </Container>
+        // </Container>
     );
 }
 

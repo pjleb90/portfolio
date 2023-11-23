@@ -42,12 +42,19 @@ import { AiFillCloseCircle } from "react-icons/ai";
         I jumped into the never-ending rabbit hole of learning software engineering
         and did a follow up course focused on building web applications with <span className="dark:text-teal-500">Python </span> and <span className="dark:text-teal-500">Django</span>.
       </p>
-      <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
-        After seeing the industry start to lean heavily towards component based web development with <span className="dark:text-teal-500">React</span>,
-        I signed up for a front-end developer course focused on <span className="dark:text-teal-500">Javascript </span> and <span className="dark:text-teal-500">JSX</span> and I&#39;ve really been
-        blown away by how powerful and versatile it is. I love how you never stop learning in this industry and am really
-        excited to be a part of it.
-      </p>
+      <div className="py-10">
+        <section className="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-gray-700 bg-blend-multiply">
+            <div className="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+                <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-teal-500">Where I am now</h1>
+                <p className="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+                  After seeing the industry start to lean heavily towards component based web development with <span className="dark:text-teal-500">React</span>,
+                  I signed up for a front-end developer course specializing in <span className="dark:text-teal-500">HTML, CSS, Javascript </span> and <span className="dark:text-teal-500">JSX</span> and I&#39;ve really been
+                  blown away by how powerful and versatile it is. I love how you never stop learning in this industry and am really
+                  excited to be a part of it.
+                </p>
+            </div>
+        </section>
+      </div>
       <p className='text-md py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
         When I&#39;m not working I can be found hanging out with my husky
         <span id="hidden-link" onClick={handleLinkClick} className="dark:text-teal-500"> Ginkgo</span>, working on a side project, reading,
