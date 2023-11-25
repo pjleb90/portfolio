@@ -8,7 +8,7 @@ const gallery = () => {
     <div>
         <div className="text-center p-10">
           <h1 className="mb-4 text-center text-3xl font-extrabold tracking-tight leading-none md:text-5xl lg:text-6xl text-gray-900 dark:text-teal-500">Projects</h1>
-          <p className='py-2 leading-8 text-teal-600 dark:text-white md:text-xl xl:text-xl'>
+          <p className='py-2 leading-8 text-gray-800 dark:text-white md:text-xl xl:text-xl'>
               Below are some of the projects that I have worked on recently. All projects were developed with React, Next.js & Tailwind, with databases ranging from MongoDB, Supabase and PlanetScale.
           </p>
         </div>
@@ -236,7 +236,7 @@ const gallery = () => {
             </div>
           </div>
         </div>
-        <section className="text-center md:text-left md:ml-60 py-10">
+        <section className="text-center md:text-left p-10">
           <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl">A<span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"> website</span> you can be <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">proud</span> of</h1>
           <p className="text-lg font-normal lg:text-xl text-gray-800 dark:text-white pb-8">I won&#39;t be happy with your website until you are. If there is anything outside of my scope I will make sure to bring in the right people to get it done. </p>
       </section>
