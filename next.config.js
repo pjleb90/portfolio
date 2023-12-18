@@ -4,7 +4,9 @@ const nextConfig = {
         domains: [
             "images.unsplash.com",
             "sympli-blog-content.s3.amazonaws.com",
-            "iexperto.io"
+            "iexperto.io",
+            "www.nita.edu.sa",
+            "unsplash.com",
         ]
     }
 }

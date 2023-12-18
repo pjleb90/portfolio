@@ -31,7 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="flex min-h-screen flex-col">
-        <main className=' bg-white px-10 md:px-20 lg:px-10 dark:bg-gray-900 text-teal-500 mt-2'>
+        <main className=' bg-white px-2 dark:bg-gray-900 text-teal-500 mt-2'>
         <ThemeProvider
             attribute="class"
             defaultTheme="system"

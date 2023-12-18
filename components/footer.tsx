@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         // <Container>
             <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
-                <div className="mx-auto max-w-screen-xl">
+                <div className="">
                     <div className="sm:flex sm:justify-between">
                         <div className="mb-6 md:mb-0 pt-10">
                             <span className="self-center text-2xl font-semibold whitespace-nowrap text-gray-600 dark:text-teal-500 hidden sm:inline-block">pjleb90@gmail.com</span>
