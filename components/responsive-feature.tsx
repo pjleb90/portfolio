@@ -7,9 +7,9 @@ import animationData from "@/assets/animation.json";
 
 const Responsive = () => {
     return (
-        <div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-2">
+        <div className="bg-white dark:bg-gray-900">
             <div className="mx-auto max-w-screen-xl px-4 md:px-8">
-                <div className="flex flex-col items-center justify-between w-full mb-10 lg:flex-row">
+                <div className="flex flex-col items-center justify-between w-full lg:flex-row">
                     <Lottie animationData={animationData} className="hidden lg:mt-0 lg:col-span-5 lg:flex"/>
                     <div className="lg:mb-0 lg:max-w-lg lg:pr-5">
                         <div className="max-w-xl mb-6 text-center md:text-left">

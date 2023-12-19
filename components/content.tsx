@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 const Content = () => {
     return (
         <div>
-            <div className="bg-white dark:bg-gray-900 py-6 sm:py-8 lg:py-2 text-center md:text-left">
+            <div className="bg-white dark:bg-gray-900 py-6 sm:py-4 lg:py-2 text-center md:text-left">
                 <div className="mx-auto max-w-screen-xl px-4 md:px-8">
                     <div className="grid gap-8 md:grid-cols-2 lg:gap-12 items-center">
                         <div>

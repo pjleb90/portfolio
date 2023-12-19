@@ -16,7 +16,7 @@ const Header = () => {
   }, []);
     return (
         <section>
-          <div className='text-center p-10'>
+          <div className='text-center p-6'>
             <h1 className='text-4xl py-2 text-center font-extrabold tracking-tight leading-none md:text-6xl xl:text-6xl mx-auto text-gray-900 dark:text-teal-500'>PJ LeBlanc</h1>
             <h3 className='text-2xl py-2 font-medium md:text-3xl text-teal-600 dark:text-teal-500'>Developer and Designer</h3>
             <div className='text-md py-5 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-white bg-clip-text'>
