@@ -6,7 +6,7 @@ const Container: React.FC<ContainerProps> = ({
     children
 }) => {
     return (
-        <div className="">
+        <div>
             {children}
         </div>
     );

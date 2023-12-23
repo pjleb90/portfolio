@@ -8,7 +8,7 @@ const NavMenu = () => {
 
     return (
         <Container>
-            <nav className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center">
+            <nav className="relative px-10 sm:px-6 lg:px-8 flex h-16 items-center">
                 <ul className="lg:flex space-x-4 font-medium md:text-xl xl:text-xl text-gray-600 dark:text-teal-500">
                     <Link href="/" className="text-gray-600 hover:text-teal-500 dark:text-teal-500 dark:hover:text-white hover:underline">
                         Home
