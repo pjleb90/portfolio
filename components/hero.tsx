@@ -23,11 +23,11 @@ const Hero = () => {
                     </p>
                     <div className="flex flex-col md:flex-row">
                         <a href="/contact" className="bg-gradient-to-r from-cyan-500 to-teal-400 text-gray-800 border-2 hover:border-gray-600 dark:hover:border-white
-                                    dark:text-grey-800 focus:ring-2 focus:outline-none rounded-xl px-4 py-2
+                                    dark:text-grey-800 focus:ring-2 focus:outline-none rounded-3xl md:rounded-xl px-4 py-2
                                     text-center font-bold mr-3 md:mr-0">
                             Contact me
                         </a>
-                        <a href="/projects" className="inline-flex items-center justify-center px-8 py-3 mr-3 text-base font-medium text-center text-gray-800 dark:text-teal-500 rounded-lg bg-primary-700 border-2 border-white dark:border-gray-900 hover:border-gray-600 dark:hover:border-teal-500">
+                        <a href="/projects" className="inline-flex items-center rounded-3xl md:rounded-xl justify-center px-8 py-2 mr-3 mt-1 text-base font-medium text-center text-gray-800 dark:text-teal-500 bg-primary-700 border-2 border-gray-600 md:border-white dark:border-teal-500 md:dark:border-gray-900 hover:border-gray-600 dark:hover:border-teal-500">
                             See more
                             <ArrowRight className="w-5 h-5 ml-2 -mr-1"/>
                         </a>
