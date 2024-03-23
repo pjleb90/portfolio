@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
-import { SiTailwindcss, SiJavascript, SiReact, SiGithub, SiCss3, SiPostgresql, } from "react-icons/si";
 
 const gallery = () => {
   return (
@@ -155,7 +154,8 @@ const gallery = () => {
                 </div>
             </div>
           </div>
-          <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
+          {/* emporium */}
+          {/* <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <Image className="rounded-t-lg" src="/images/web4.png" alt="A image of an e-commerce store front" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Emporium</h5>
@@ -174,8 +174,9 @@ const gallery = () => {
                   </Link>
                 </div>
             </div>
-          </div>
-          <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
+          </div> */}
+          {/* e-comm dashboard */}
+          {/* <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <Image className="rounded-t-lg" src="/images/web3.png" alt="A image of an e-commerce dashboard" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Emporium dashboard</h5>
@@ -194,8 +195,9 @@ const gallery = () => {
                   </Link>
                 </div>
             </div>
-          </div>
-          <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
+          </div> */}
+          {/* saas ai */}
+          {/* <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <Image className="rounded-t-lg" src="/images/web5.png" alt="A SaaS, AI site" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Oracle</h5>
@@ -214,8 +216,9 @@ const gallery = () => {
                   </Link>
                 </div>
             </div>
-          </div>
-          <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
+          </div> */}
+          {/* greater landscaping */}
+          {/* <div className="max-w-xl xl:max-w-xl 2xl:max-w-3xl bg-white rounded-lg shadow-xl shadow-slate-500 dark:bg-gray-800 dark:shadow-teal-500">
             <Image className="rounded-t-lg" src="/images/web6.png" alt="A commercial landscaping website" width={1000} height={500}/>
             <div className="p-5">
                     <h5 className="mb-2 text-2xl font-bold text-center tracking-tight text-gray-800 dark:text-teal-500">Greater Landscaping</h5>
@@ -234,7 +237,7 @@ const gallery = () => {
                   </Link>
                 </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <section className="text-center md:text-left p-10">
           <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-5xl">A<span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"> website</span> you can be <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">proud</span> of</h1>
